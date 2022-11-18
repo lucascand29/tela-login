@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 1057px;
+    height: 708px;
+    position: absolute;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+}
+
+main .config-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 70px;
+    padding-left: 150px;
+}
+
+main .config-login .login h1 {
+    padding-bottom: 25px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #161843;
+
+}
+
+main .config-login .login p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #161843;
+}
+
+main .config-login .email {
+    display: flex;
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+    width: 600px;
+    height: 73px;
+
+    align-items: center;
+
+}
+
+main .config-login .email p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #717A91;
+    padding: 10px;
+
+
+}
+
+main .confirmar-login {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .config-login .confirmar-login p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #0C6787;
+}
+
+main .config-login .confirmar-login button {
+    background: #046586;
+    border-radius: 5px;
+    width: 157px;
+    height: 73px;
+}
+
+main .config-login .opcoes-login {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+
+}
+
+main .config-login .opcoes-login p {
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    width: 400px;
+    color: #838A9E;
+    align-self: center;
+
+
+}
+
+main .config-login .opcoes-login .imagens-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+
+}
+
+main .config-login .opcoes-login .imagens-login img {
+    width: 187px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+
+}
+
+main .config-login .cadastrar p {
+
+    display: flex;
+
+    padding-top: 20px;
+    justify-content: center;
+    width: 600px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+
+
+
+.fundo-imagem {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fundo-imagem img {
+
+    position: absolute;
+
+    border-radius: 24px;
+    width: 449px;
+    height: 708px;
+    left: 879px;
+    top: 16px;
+}
+
+.fundo-imagem button {
+    position: absolute;
+    top: 22px;
+    left: 1288px;
+
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
